@@ -15,17 +15,7 @@
         <storm.version>0.8.2</storm.version>
 	</properties>
     <repositories>
-        <repository>
-            <id>projectrepo</id>
-            <releases>
-                <enabled>false</enabled>
-                <checksumPolicy>ignore</checksumPolicy>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <url>file://${project.basedir}/lib</url>
-        </repository>
+
         <repository>
             <id>github-releases</id>
             <url>http://oss.sonatype.org/content/repositories/github-releases/</url>
@@ -86,31 +76,7 @@
 			<version>4.2.3</version>
 			<scope>compile</scope>
 		</dependency>
-        <dependency>
-            <groupId>com.ibm</groupId>
-            <artifactId>mq</artifactId>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.ibm</groupId>
-            <artifactId>mqjms</artifactId>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.ibm</groupId>
-            <artifactId>mqetclient</artifactId>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.ibm</groupId>
-            <artifactId>dhbcore</artifactId>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.ibm</groupId>
-            <artifactId>connector</artifactId>
-            <version>1.0</version>
-        </dependency>
+
         <dependency>
             <groupId>org.apache.geronimo.specs</groupId>
             <artifactId>geronimo-jms_1.1_spec</artifactId>
@@ -219,11 +185,7 @@
             <artifactId>commons-collections</artifactId>
             <version>3.2.1</version>
         </dependency>
-        <dependency>
-			<groupId>com.shc</groupId>
-			<artifactId>npos-parser</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+
         <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
@@ -277,7 +239,6 @@
 				<configuration>
 					<source>1.6</source>
 					<target>1.6</target>
-					<encoding>ISO-8859-1</encoding>
 				</configuration>
 			</plugin>
 		</plugins>

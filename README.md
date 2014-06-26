@@ -7,6 +7,7 @@ This project uses:
 2. Bolt that writes to local Redis 
 
 *This project uses Redis*
+
 Download Redis from here: http://redis.io/download
 
 If you want to eliminate Redis communication, remove/comment the lines in the RedisBolt that involve 'jedis'.
